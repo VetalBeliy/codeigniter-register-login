@@ -148,7 +148,7 @@ class User extends CI_Controller {
 			
 			// user logout ok
 			$this->load->view('header');
-			$this->load->view('user/logout/logout_success', $data);
+			$this->load->view('user/logout/register', $data);
 			$this->load->view('footer');
 			
 		} else {
